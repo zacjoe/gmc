@@ -21,12 +21,11 @@
     <link rel="shortcut icon" href="favicon.ico">        
     <!-- CSS Implementing Plugins -->    
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css" type="text/css" media="screen">    	
-    <link rel="stylesheet" href="assets/plugins/parallax-slider/css/parallax-slider.css" type="text/css">
+    <link rel="stylesheet" href="assets/plugins/fancybox/source/jquery.fancybox.css"> 
     <!-- CSS Theme -->    
     <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
     <link rel="stylesheet" href="assets/css/themes/headers/default.css" id="style_color-header-1">    
-</head>	
+</head> 
 
 <body>
 <!--=== Style Switcher ===-->    
@@ -46,22 +45,22 @@
 
 <!--=== Top ===-->    
 <div class="top">
-    <div class="container">         
+    <div class="container">			
         <ul class="loginbar pull-right">
             <li><i class="icon-globe"></i><a>Languages <i class="icon-sort-up"></i></a>
-                <ul class="nav-list">
-                    <li class="active"><a href="#">English</a> <i class="icon-ok"></i></li>
-                    <li><a href="#">Spanish</a></li>
-                    <li><a href="#">Russian</a></li>
-                    <li><a href="#">German</a></li>
+            	<ul class="nav-list">
+                	<li class="active"><a href="#">English</a> <i class="icon-ok"></i></li>
+                	<li><a href="#">Spanish</a></li>
+                	<li><a href="#">Russian</a></li>
+                	<li><a href="#">German</a></li>
                 </ul>
-            </li>   
+            </li>	
             <li class="devider">&nbsp;</li>
-            <li><a href="page_faq.html" class="login-btn">Help</a></li>  
+            <li><a href="page_faq.html" class="login-btn">Help</a></li>	
             <li class="devider">&nbsp;</li>
-            <li><a href="page_login.html" class="login-btn">Login</a></li>   
+            <li><a href="page_login.html" class="login-btn">Login</a></li>	
         </ul>
-    </div>      
+    </div>		
 </div><!--/top-->
 <!--=== End Top ===-->    
 
@@ -83,12 +82,12 @@
                 </a><!-- /nav-collapse -->                                  
                 <div class="nav-collapse collapse">                                     
                     <ul class="nav top-2">
-                        <li class="active">
+                        <li>
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home
                                 <b class="caret"></b>                            
                             </a>
                             <ul class="dropdown-menu">
-                                <li class="active"><a href="index.html">Option1: Landing Page</a></li>
+                                <li><a href="index.html">Option1: Landing Page</a></li>
                                 <li><a href="page_home.html">Option2: Header Option</a></li>
                                 <li><a href="page_home4.html">Option3: Revolution Slider</a></li>
                                 <li><a href="page_home5.html">Option4: Amazing Content</a></li>
@@ -122,13 +121,13 @@
                             </ul>
                             <b class="caret-out"></b>                        
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown">Features
                                 <b class="caret"></b>                            
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="feature_grid.html">Grid Layout</a></li>
-                                <li><a href="feature_typography.html">Typography</a></li>
+                                <li class="active"><a href="feature_typography.html">Typography</a></li>
                                 <li><a href="feature_thumbnail.html">Thumbnails</a></li>
                                 <li><a href="feature_component.html">Components</a></li>
                                 <li><a href="feature_navigation.html">Navigation</a></li>
@@ -191,292 +190,242 @@
 </div><!--/header -->      
 <!--=== End Header ===-->
 
-<!--=== Slider ===-->
-<div class="slider-inner">
-    <div id="da-slider" class="da-slider">
-        <div class="da-slide">
-            <h2><i>CLEAN &amp; FRESH</i> <br /> <i>FULLY RESPONSIVE</i> <br /> <i>DESIGN</i></h2>
-            <p><i>Lorem ipsum dolor amet</i> <br /> <i>tempor incididunt ut</i> <br /> <i>veniam omnis </i></p>
-            <div class="da-img"><img src="assets/plugins/parallax-slider/img/1.png" alt="" /></div>
-        </div>
-        <div class="da-slide">
-            <h2><i>RESPONSIVE VIDEO</i> <br /> <i>SUPPORT AND</i> <br /> <i>MANY MORE</i></h2>
-            <p><i>Lorem ipsum dolor amet</i> <br /> <i>tempor incididunt ut</i></p>
-            <div class="da-img span6">
-            	<div class="span6">
-					<iframe src="http://player.vimeo.com/video/47911018" width="100%" height="320" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
- 				</div>
-            </div>
-        </div>
-        <div class="da-slide">
-            <h2><i>USING BEST WEB</i> <br /> <i>SOLUTIONS WITH</i> <br /> <i>HTML5/CSS3</i></h2>
-            <p><i>Lorem ipsum dolor amet</i> <br /> <i>tempor incididunt ut</i> <br /> <i>veniam omnis </i></p>
-            <div class="da-img"><img src="assets/plugins/parallax-slider/img/html5andcss3.png" alt="image01" /></div>
-        </div>
-        <nav class="da-arrows">
-            <span class="da-arrows-prev"></span>
-            <span class="da-arrows-next"></span>		
-        </nav>
-    </div><!--/da-slider-->
-</div><!--/slider-->
-<!--=== End Slider ===-->
-
-<!--=== Purchase Block ===-->
-<div class="row-fluid purchase margin-bottom-30">
-    <div class="container">
-		<div class="span9">
-            <span>Unify is a clean and fully responsive incredible Template.</span>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi  vehicula sem ut volutpat. Ut non libero magna fusce condimentum eleifend enim a feugiat.</p>
-        </div>
-        <a href="#" class="btn-buy hover-effect">Purchase Now</a>
-    </div>
-</div><!--/row-fluid-->
-<!-- End Purchase Block -->
+<!--=== Breadcrumbs ===-->
+<div class="row-fluid breadcrumbs margin-bottom-30">
+	<div class="container">
+        <h1 class="pull-left">Typography</h1>
+        <ul class="pull-right breadcrumb">
+            <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+            <li><a href="">Features</a> <span class="divider">/</span></li>
+            <li class="active">Typography</li>
+        </ul>
+    </div><!--/container-->
+</div><!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===-->
 
 <!--=== Content Part ===-->
-<div class="container">	
-	<!-- Service Blocks -->
+<div class="container">		
 	<div class="row-fluid">
-    	<div class="span4">
-    		<div class="service clearfix">
-                <i class="icon-resize-small"></i>
-    			<div class="desc">
-    				<h4>Fully Responsive</h4>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus etiam sem...</p>
-    			</div>
-    		</div>	
-    	</div>
-    	<div class="span4">
-    		<div class="service clearfix">
-                <i class="icon-cogs"></i>
-    			<div class="desc">
-    				<h4>HTML5 + CSS3</h4>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus etiam sem...</p>
-    			</div>
-    		</div>	
-    	</div>
-    	<div class="span4">
-    		<div class="service clearfix">
-                <i class="icon-plane"></i>
-    			<div class="desc">
-    				<h4>Launch Ready</h4>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus etiam sem...</p>
-    			</div>
-    		</div>	
-    	</div>			    
-	</div><!--/row-fluid-->
-	<!-- //End Service Blokcs -->
+        <!-- Paragraph and Heading Examples -->
+        <div class="row-fluid margin-bottom-20">
+            <!-- Paragraph Examples -->
+        	<div class="span6">
+                <div class="headline"><h3>Paragraph Examples</h3></div>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus.</p>
+                <p><strong>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</strong></p>
+                <p> Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut repellat.</p>
+                <p><em>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et.</em></p>
+                <p><small>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</small></p>
+            </div>
+            	
+            <!-- Heading Examples -->
+        	<div class="span6">
+                <div class="headline"><h3>Heading Examples from H1 to H6</h3></div>
+                <h1>h1. Heading 1</h1>
+                <h2>h2. Heading 2</h2>
+                <h3>h3. Heading 3</h3>
+                <h4>h4. Heading 4</h4>
+                <h5>h5. Heading 5</h5>
+                <h6>h6. Heading 6</h6>
+            </div>
+        </div><!--/row-fluid-->
+        <!--//End Paragraph and Heading Examples -->
 
-	<!-- Recent Works -->
-	<div class="headline"><h3>Recent Works</h3></div>
-    <ul class="thumbnails">
-        <li class="span3">
-            <div class="thumbnail-style thumbnail-kenburn">
-            	<div class="thumbnail-img">
-                    <div class="overflow-hidden"><img src="assets/img/carousel/2.jpg" alt="" /></div>
-                    <a class="btn-more hover-effect" href="#">read more +</a>					
-                </div>
-                <h3><a class="hover-effect" href="#">Our Work</a></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
+        <!-- Lists and Descriptions -->
+        <div class="row-fluid margin-bottom-20">
+            <!-- Unordered Lists -->
+        	<div class="span3">
+                <div class="headline"><h3>Unordered Lists</h3></div>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Consectetur adipiscing elit</li>
+                    <li>Integer molestie lorem at massa</li>
+                    <li>Facilisis in pretium nisl aliquet</li>
+                    <li>Nulla volutpat aliquam velit
+                        <ul>
+                            <li>Phasellus iaculis neque</li>
+                            <li>Purus sodales ultricies</li>
+                            <li>Vestibulum laoreet porttitor sem</li>
+                            <li>Ac tristique libero volutpat at</li>
+                        </ul>
+                    </li>
+                    <li>Faucibus porta lacus fringilla vel</li>
+                    <li>Aenean sit amet erat nunc</li>
+                    <li>Eget porttitor lorem</li>
+	            </ul>
             </div>
-        </li>
-        <li class="span3">
-            <div class="thumbnail-style thumbnail-kenburn">
-            	<div class="thumbnail-img">
-                    <div class="overflow-hidden"><img src="assets/img/carousel/3.jpg" alt="" /></div>
-                    <a class="btn-more hover-effect" href="#">read more +</a>					
-                </div>
-                <h3><a class="hover-effect" href="#">One More Work</a></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
-            </div>
-        </li>
-        <li class="span3">
-            <div class="thumbnail-style thumbnail-kenburn">
-            	<div class="thumbnail-img">
-                    <div class="overflow-hidden"><img src="assets/img/carousel/9.jpg" alt="" /></div>
-                    <a class="btn-more hover-effect" href="#">read more +</a>					
-                </div>
-                <h3><a class="hover-effect" href="#">Another Work</a></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
-            </div>
-        </li>
-        <li class="span3">
-            <div class="thumbnail-style thumbnail-kenburn">
-            	<div class="thumbnail-img">
-                    <div class="overflow-hidden"><img src="assets/img/carousel/10.jpg" alt="" /></div>
-                    <a class="btn-more hover-effect" href="#">read more +</a>					
-                </div>
-                <h3><a class="hover-effect" href="#">Huge Work</a></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
-            </div>
-        </li>
-    </ul><!--/thumbnails-->
-	<!-- //End Recent Works -->
-    
-	<!-- Information Blokcs -->
-	<div class="row-fluid margin-bottom-20">
-    	<!-- Who We Are -->
-		<div class="span8">
-			<div class="headline"><h3>Welcome To UNIFY Template</h3></div>
-			<p><img class="pull-left lft-img-margin img-width-200" src="assets/img/carousel/6.jpg" alt="" />Unify is an incredibly beautiful responsive Bootstrap Template for corporate and creative professionals. It works on all major web browsers, tablets and phone.</p>	
-            <ul class="unstyled">
-            	<li><i class="icon-ok color-green"></i> Donec id elit non mi porta gravida</li>
-            	<li><i class="icon-ok color-green"></i> Corporate and Creative</li>
-            	<li><i class="icon-ok color-green"></i> Responsive Bootstrap Template</li>
-            	<li><i class="icon-ok color-green"></i> Corporate and Creative</li>
-            </ul><br>
 
-            <blockquote class="hero-unify">
-                <p>Award winning digital agency. We bring a personal and effective approach to every project we work on, which is why. Unify is an incredibly beautiful responsive Bootstrap Template for corporate professionals.</p>
-                <small>CEO, Jack Bour</small>
+            <!-- Unstyled Lists -->
+        	<div class="span3">
+                <div class="headline"><h3>Unstyled Lists</h3></div>
+                <ul class="unstyled">
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Consectetur adipiscing elit</li>
+                    <li>Integer molestie lorem at massa</li>
+                    <li>Facilisis in pretium nisl aliquet</li>
+                    <li>Nulla volutpat aliquam velit
+                        <ul>
+                            <li>Phasellus iaculis neque</li>
+                            <li>Purus sodales ultricies</li>
+                            <li>Vestibulum laoreet porttitor sem</li>
+                            <li>Ac tristique libero volutpat at</li>
+                        </ul>
+                    </li>
+                    <li>Faucibus porta lacus fringilla vel</li>
+                    <li>Aenean sit amet erat nunc</li>
+                    <li>Eget porttitor lorem</li>
+	            </ul>
+            </div>                
+
+            <!-- Ordered Lists -->
+        	<div class="span3">
+                <div class="headline"><h3>Ordered Lists</h3></div>
+                <ol>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Consectetur adipiscing elit</li>
+                    <li>Integer molestie lorem at massa</li>
+                    <li>Facilisis in pretium nisl aliquet</li>
+                    <li>Nulla volutpat aliquam velit
+                        <ol>
+                            <li>Phasellus iaculis neque</li>
+                            <li>Purus sodales ultricies</li>
+                            <li>Vestibulum laoreet porttitor sem</li>
+                            <li>Ac tristique libero volutpat at</li>
+                        </ol>
+                    </li>
+                    <li>Faucibus porta lacus fringilla vel</li>
+                    <li>Aenean sit amet erat nunc</li>
+                    <li>Eget porttitor lorem</li>
+	            </ol>
+            </div>
+
+            <!-- Unstyled Lists -->
+        	<div class="span3">
+                <div class="headline"><h3>Unstyled Lists</h3></div>
+                <ol class="unstyled">
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Consectetur adipiscing elit</li>
+                    <li>Integer molestie lorem at massa</li>
+                    <li>Facilisis in pretium nisl aliquet</li>
+                    <li>Nulla volutpat aliquam velit
+                        <ol>
+                            <li>Phasellus iaculis neque</li>
+                            <li>Purus sodales ultricies</li>
+                            <li>Vestibulum laoreet porttitor sem</li>
+                            <li>Ac tristique libero volutpat at</li>
+                        </ol>
+                    </li>
+                    <li>Faucibus porta lacus fringilla vel</li>
+                    <li>Aenean sit amet erat nunc</li>
+                    <li>Eget porttitor lorem</li>
+	            </ol>
+            </div>
+        </div><!--/row-fluid-->
+
+        <!-- Inline Lists -->
+        <div class="row-fluid margin-bottom-20">
+            <div class="headline"><h3>Inline Lists</h3></div>
+            <ul class="inline">
+                <li>1-Lorem ipsum</li>
+                <li>2-Consectetur elit</li>
+                <li>3-Integer molestie</li>
+                <li>4-Facilisis in </li>
+                <li>5-Nulla volutpat</li>
+                <li>6-Faucibus porta</li>
+                <li>7-Aenean sit</li>
+                <li>8-Eget porttitor</li>
+            </ul>
+        </div><!--/row-fluid-->
+        <!--//End Lists and Descriptions -->
+
+        <!-- Descriptions -->
+        <div class="row-fluid margin-bottom-20">
+        	<div class="span6">
+	            <!-- Description -->
+                <div class="headline"><h3>Description</h3></div>
+                <dl>
+                    <dt>Description lists</dt>
+                    <dd>A description list is perfect for defining terms.</dd>
+                    <dt>Euismod</dt>
+                    <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+                    <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+                    <dt>Malesuada porta</dt>
+                    <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                </dl>
+            </div>
+
+            <!-- Horizontal Description -->
+        	<div class="span6">
+                <div class="headline"><h3>Horizontal Description</h3></div>
+                <dl class="dl-horizontal">
+                    <dt>Description lists</dt>
+                    <dd>A description list is perfect for defining terms.</dd>
+                    <dt>Euismod</dt>
+                    <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+                    <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+                    <dt>Malesuada porta</dt>
+                    <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                    <dt>Felis euismod semper eget lacinia</dt>
+                    <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+                </dl>
+            </div>
+        </div><!--/row-fluid-->
+        <!--//End Descriptions -->
+        
+        <!-- Emphasis Classes -->
+        <div class="row-fluid margin-bottom-20">
+            <div class="span6">
+                <div class="headline"><h3>Emphasis Classes</h3></div>
+                <p class="muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+                <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+                <p class="text-error">Donec ullamcorper nulla non metus auctor fringilla.</p>
+                <p class="text-info">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.</p>
+                <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>                    
+            </div>
+            <div class="span6">
+                <div class="headline"><h3>Blockquote Options in Blocks</h3></div>
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit posuere erat a ante.</p>
+                    <small>Someone famous <cite title="Source Title">Source Title</cite></small>
+                </blockquote>                    
+                <blockquote class="hero">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing duis mollis, est non commodo luctus elit posuere erat a ante.</p>
+                    <small class="color-green">Someone famous <cite title="Source Title">Source Title</cite></small>
+                </blockquote>                    
+            </div>
+        </div><!--/row-fluid-->
+        <!--//End Emphasis Classes -->
+
+        <!-- Blockquote Options -->
+        <div class="row-fluid">
+            <div class="headline"><h3>Blockquote Options</h3></div>
+            <blockquote>
+                <h2 class="color-green">Etiam porta sem malesuada magna mollis euismod</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing duis mollis, est non commodo luctus elit posuere erat a ante. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+            </blockquote>                    
+            <blockquote>
+                <p><em>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</em></p>
+                <small class="color-green"><em>Etiam porta sem malesuada</em></small>
+            </blockquote>                    
+            <blockquote class="margin-bottom-50">
+                <h2>Etiam porta sem malesuada magna mollis euismod</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing duis mollis, est non commodo luctus elit posuere erat a ante. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis lorem ipsum dolor sit amet, consectetur adipiscing.</p>
             </blockquote>
-        </div><!--/span8-->        
-
-        <!-- Latest Shots -->
-        <div class="span4">
-			<div class="headline"><h3>Latest Shots</h3></div>
-			<div id="myCarousel" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="assets/img/carousel/5.jpg" alt="">
-                    <div class="carousel-caption">
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas.</p>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="assets/img/carousel/4.jpg" alt="">
-                    <div class="carousel-caption">
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas.</p>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="assets/img/carousel/3.jpg" alt="">
-                    <div class="carousel-caption">
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas.</p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="carousel-arrow">
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="icon-angle-left"></i></a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="icon-angle-right"></i></a>
-                </div>
-			</div>
-        </div><!--/span4-->
-	</div><!--/row-fluid-->	
-	<!-- //End Information Blokcs -->
-
-	<!-- Our Clients -->
-	<div id="clients-flexslider" class="flexslider home clients">
-        <div class="headline"><h3>Our Clients</h3></div>	
-		<ul class="slides">
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/hp_grey.png" alt="" /> 
-                    <img src="assets/img/clients/hp.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/igneus_grey.png" alt="" /> 
-                    <img src="assets/img/clients/igneus.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/vadafone_grey.png" alt="" /> 
-                    <img src="assets/img/clients/vadafone.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/walmart_grey.png" alt="" /> 
-                    <img src="assets/img/clients/walmart.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/shell_grey.png" alt="" /> 
-                    <img src="assets/img/clients/shell.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/natural_grey.png" alt="" /> 
-                    <img src="assets/img/clients/natural.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/aztec_grey.png" alt="" /> 
-                    <img src="assets/img/clients/aztec.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/gamescast_grey.png" alt="" /> 
-                    <img src="assets/img/clients/gamescast.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/cisco_grey.png" alt="" /> 
-                    <img src="assets/img/clients/cisco.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/everyday_grey.png" alt="" /> 
-                    <img src="assets/img/clients/everyday.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/cocacola_grey.png" alt="" /> 
-                    <img src="assets/img/clients/cocacola.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/spinworkx_grey.png" alt="" /> 
-                    <img src="assets/img/clients/spinworkx.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/shell_grey.png" alt="" /> 
-                    <img src="assets/img/clients/shell.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/natural_grey.png" alt="" /> 
-                    <img src="assets/img/clients/natural.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/gamescast_grey.png" alt="" /> 
-                    <img src="assets/img/clients/gamescast.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/everyday_grey.png" alt="" /> 
-                    <img src="assets/img/clients/everyday.png" class="color-img" alt="" />
-                </a>
-            </li>
-			<li>
-                <a href="#">
-                    <img src="assets/img/clients/spinworkx_grey.png" alt="" /> 
-                    <img src="assets/img/clients/spinworkx.png" class="color-img" alt="" />
-                </a>
-            </li>
-		</ul>
-	</div><!--/flexslider-->
-	<!-- //End Our Clients -->
+            
+            <p><strong>Add a class <code>hero</code> to do green border color</strong></p>                    
+            <blockquote class="hero">
+                <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing duis mollis, est non commodo luctus elit posuere erat a ante. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis lorem ipsum dolor sit amet, consectetur adipiscing.</em></p>
+                <small><em>Etiam porta sem malesuada</em></small>
+            </blockquote>                    
+            <blockquote class="hero pagination-centered">
+                <h2 class="color-green">Etiam porta sem malesuada magna mollis euismod</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing duis mollis, est non commodo luctus elit posuere erat a ante. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis lorem ipsum dolor sit amet, consectetur adipiscingsit amet . Lorem ipsum dolor sit amet consectetur.</p>
+            </blockquote>                    
+        </div><!--/row-fluid-->
+        <!--//End Blockquote Options -->            
+    </div><!--/row-fluid-->        
 </div><!--/container-->		
-<!-- End Content Part -->
+<!--=== End Content Part ===-->
 
 <!--=== Footer ===-->
 <div class="footer">
@@ -565,23 +514,17 @@
 </div><!--/copyright-->	
 <!--=== End Copyright ===-->
 
-<!-- JS Global Compulsory -->			
+<!-- JS Global Compulsory -->           
 <script type="text/javascript" src="assets/js/jquery-1.8.2.min.js"></script>
-<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>		
-<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>	
+<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>        
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
 <!-- JS Implementing Plugins -->           
-<script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
-<script type="text/javascript" src="assets/plugins/parallax-slider/js/modernizr.js"></script>
-<script type="text/javascript" src="assets/plugins/parallax-slider/js/jquery.cslider.js"></script> 
 <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
 <!-- JS Page Level -->           
 <script type="text/javascript" src="assets/js/app.js"></script>
-<script type="text/javascript" src="assets/js/pages/index.js"></script>
 <script type="text/javascript">
     jQuery(document).ready(function() {
-      	App.init();
-        App.initSliders();
-        Index.initParallaxSlider();
+        App.init();
     });
 </script>
 <!--[if lt IE 9]>
@@ -589,4 +532,4 @@
 <![endif]-->
 
 </body>
-</html>	
+</html> 
