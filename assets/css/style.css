@@ -14,6 +14,10 @@ Website: http://htmlstream.com/preview/unify
 	border-radius:0 !important;
 }
 
+.keywordG {
+    color:green;
+}
+
 body { 
     padding:0;
 	color:#333; 
@@ -83,13 +87,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i {
 .purchase .container .span9 {
 	margin-right:20px;
 }
-.purchase span {
-	color:#666;
-	display:block;
-	font-size:32px;
-	line-height:35px;
-	margin-bottom:12px;
-}
+
 .purchase a.btn-buy {
 	color:#fff;
 	font-size:16px;
