@@ -14,10 +14,6 @@ Website: http://htmlstream.com/preview/unify
 	border-radius:0 !important;
 }
 
-.keywordG {
-    color:green;
-}
-
 body { 
     padding:0;
 	color:#333; 
@@ -614,6 +610,7 @@ blockquote:hover {
 .acc-home a.accordion-toggle { 
 	color:#686868; 
 	font-size:18px; 
+	text-align: center;
 	background:none; 
 	padding:5px 15px;
 	background:#fafafa;
