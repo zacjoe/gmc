@@ -132,9 +132,14 @@
 	position:relative;
 }
 
+.header .logo h1{
+	font-size: 11px;
+	margin: 0px;
+}
+
 .logo {
 	position:absolute;
-	top:-5px;
+	top:-15px;
 	left:0;
 }
 
