@@ -31,7 +31,7 @@
 	padding:0;
 	font-size:8px;
 	position:relative;
-	margin:0 6px 0 2px;
+	margin:0 25px 0 2px;
 	font-family:Tahoma;
 	border-right:solid 1px #bbb;
 }
@@ -125,22 +125,29 @@
 .header {
 	z-index:999;
 	position:relative;
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 }
 
 .header .container {
 	position:relative;
 }
 
-.header .logo h1{
-	font-size: 11px;
+.logo h6 {
+	font-size: 12px;
 	margin: 0px;
 }
 
+.logo img {
+	width:auto;
+	height:auto;
+	margin-left:30px;
+}
+
 .logo {
-	position:absolute;
-	top:-15px;
+	position:relative;
+	top:-25px;
 	left:0;
+	float: left;
 }
 
 /*Menu*/
@@ -320,12 +327,11 @@
 /*Serach*/
 .navbar .search-open {
 	right:0; 
-	top:44px; 
+	top:65px; 
 	display:none;
 	padding:15px; 
 	position:absolute; 
 	background:#fcfcfc; 
-	border-top:solid 2px #eee; 
 }
 
 .navbar .search-open form,
