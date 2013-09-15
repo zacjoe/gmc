@@ -8,13 +8,13 @@ var Contact = function () {
 			$(document).ready(function(){
 			  map = new GMaps({
 				div: '#map',
-				lat: -13.004333,
-				lng: -38.494333
+				lat: 4.21048,
+				lng: 101.97577
 			  });
 			   var marker = map.addMarker({
-		            lat: -13.004333,
-					lng: -38.494333,
-		            title: 'Loop, Inc.'
+		            lat: 4.21048,
+					lng: 101.97577,
+		            title: 'Techtual Consulting'
 		        });
 			});
         }
