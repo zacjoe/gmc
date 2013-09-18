@@ -698,6 +698,9 @@
         App.init();
         App.initSliders();
         App.initBxSlider1();
+        $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) {
+            e.stopPropagation();
+        }
     });
 </script>
 <!--[if lt IE 9]>
