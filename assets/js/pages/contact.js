@@ -8,12 +8,12 @@ var Contact = function () {
 			$(document).ready(function(){
 			  map = new GMaps({
 				div: '#map',
-				lat: 4.21048,
-				lng: 101.97577
+				lat: 3.1708333,
+				lng: 101.6538889
 			  });
 			   var marker = map.addMarker({
-		            lat: 4.21048,
-					lng: 101.97577,
+		            lat: 3.1708333,
+					lng: 101.6538889,
 		            title: 'Techtual Consulting'
 		        });
 			});
