@@ -24,6 +24,7 @@ body {
     font-size:13px;
     line-height:1.6;
 	background:#fff;
+	padding-top: 35px !important;
 }
 
 p, a, li { 
@@ -410,10 +411,10 @@ blockquote{
 	color:#dadada;
 } 
 .footer a {
-	color:#72c02c;
+	color:#719ECC;
 }
 .footer a:hover {
-	color:#a8f85f;
+	color:#97E5FF;
     -webkit-transition:all 0.4s ease-in-out;
     -moz-transition:all 0.4s ease-in-out;
     -o-transition:all 0.4s ease-in-out;
@@ -670,16 +671,16 @@ blockquote{
 	transition:all 0.4s ease-in-out;
 }
 .posts .dl-horizontal dt { 
-	width:56px; 
+	width:26px; 
 	float:left;
 }
 .posts .dl-horizontal dt img { 
-	width:50px; 
-	height:50px; 
+	width:20px; 
+	height:20px; 
 	border:solid 3px #eee;
 }
 .posts .dl-horizontal dd { 
-	margin-left:66px;
+	margin-left:35px;
 }
 .posts .dl-horizontal dd p { 
 	margin:0;

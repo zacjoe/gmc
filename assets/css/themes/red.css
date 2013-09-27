@@ -116,12 +116,6 @@ blockquote:hover {
 
 /*Footer
 ------------------------------------*/
-.footer a,
-.copyright a,
-.footer a:hover,
-.copyright a:hover {
-	color: #e74c3c;
-}
 
 /*Footer Blog*/
 .footer .dl-horizontal a:hover {
