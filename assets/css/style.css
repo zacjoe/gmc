@@ -333,6 +333,13 @@ blockquote{
 	box-shadow:none !important;
 	margin-bottom:0 !important;    
 }
+
+.clients .slides li{
+	transform:scale(0.7, 0.7);
+	-ms-transform:scale(0.7, 0.7); /* IE 9 */
+	-webkit-transform:scale(0.7, 0.7);; /* Safari and Chrome */
+}
+
 .clients li {
 	float:left;
 	overflow:hidden;
