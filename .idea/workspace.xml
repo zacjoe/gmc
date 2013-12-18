@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0433b898-395f-423b-bdb6-61cf6388a839" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ViewDev/services.html" afterPath="$PROJECT_DIR$/ViewDev/services.html" />
     </list>
     <ignored path="gmc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1911" column="24" selection-start="34254" selection-end="34254" vertical-scroll-proportion="0.24623115" vertical-offset="28518" max-vertical-offset="29115">
+            <state line="1911" column="24" selection-start="34254" selection-end="34254" vertical-scroll-proportion="-5.88" vertical-offset="28518" max-vertical-offset="29115">
               <folding />
             </state>
           </provider>
@@ -38,6 +38,15 @@
         <entry file="file://$PROJECT_DIR$/ViewDev/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="168" column="35" selection-start="9152" selection-end="9159" vertical-scroll-proportion="-8.75" vertical-offset="2310" max-vertical-offset="15870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ViewDev/services.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="317" column="130" selection-start="20294" selection-end="20294" vertical-scroll-proportion="0.27857143" vertical-offset="4599" max-vertical-offset="12510">
               <folding />
             </state>
           </provider>
@@ -67,6 +76,7 @@
         <option value="$PROJECT_DIR$/contactOrig.html" />
         <option value="$PROJECT_DIR$/clientsOrig.html" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/ViewDev/services.html" />
       </list>
     </option>
   </component>
@@ -269,6 +279,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1911" column="24" selection-start="34254" selection-end="34254" vertical-scroll-proportion="-5.88" vertical-offset="28518" max-vertical-offset="29115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ViewDev/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="168" column="35" selection-start="9152" selection-end="9159" vertical-scroll-proportion="-8.75" vertical-offset="2310" max-vertical-offset="15870">
@@ -276,9 +293,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+    <entry file="file://$PROJECT_DIR$/ViewDev/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1911" column="24" selection-start="34254" selection-end="34254" vertical-scroll-proportion="0.24623115" vertical-offset="28518" max-vertical-offset="29115">
+        <state line="317" column="130" selection-start="20294" selection-end="20294" vertical-scroll-proportion="0.27857143" vertical-offset="4599" max-vertical-offset="12510">
           <folding />
         </state>
       </provider>
