@@ -1930,3 +1930,7 @@ i.style-switcher-btn-option:hover {
 	padding: 7px;
 	text-shadow: none !important;
 }
+
+.caption .btn-info {
+    border-radius:5px !important;
+}
