@@ -563,9 +563,10 @@ blockquote{
    -ms-transform: scale(1.2) rotate(2deg);
    transform: scale(1.2) rotate(2deg);
 }
- 
+
 /*Welcome Block*/
-.servive-block .span4,.span3 {
+
+.servive-block .span4 {
 	padding:20px 30px;
 	text-align:center;
 	margin-bottom:20px;
@@ -576,27 +577,33 @@ blockquote{
     -o-transition:all 0.3s ease-in-out;
     transition:all 0.3s ease-in-out;
 }
-.servive-block .span4:hover,.span3:hover {
+
+.servive-block ul{
+    margin:0;
+    text-align: left;
+}
+
+.servive-block .span4:hover {
 	border-radius:2px;
 	box-shadow:0 0 8px #ddd;
 }
 .servive-block .span4 h4 a:hover {
-	color:#72c02c;
+	color:#e74c3c;
 	text-decoration:none;
 }
-.servive-block .span3 strong a:hover {
-    color:#72c02c;
+.servive-block .span4:hover strong {
+    color:#e74c3c;
     text-decoration:none;
 }
 
 .servive-block .span4:hover h4,
 .servive-block .span4:hover i {
-	color:#72c02c;
+	color:#e74c3c;
 }
 
-.servive-block .span3:hover strong {
-    color:#72c02c;
-}
+/*.servive-block .span3:hover strong {*/
+    /*color:#e74c3c;*/
+/*}*/
 
 .servive-block .span4 i {
 	color:#565656;
@@ -607,7 +614,7 @@ blockquote{
     transition:all 0.4s ease-in-out;
 }
 .servive-block-in .span4 i {
-	color:#72c02c;
+	color:#e74c3c;
 }
 .servive-block-in .span4:hover i {
 	color:#565656;
