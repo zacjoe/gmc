@@ -565,7 +565,7 @@ blockquote{
 }
  
 /*Welcome Block*/
-.servive-block .span4 {
+.servive-block .span4,.span3 {
 	padding:20px 30px;
 	text-align:center;
 	margin-bottom:20px;
@@ -576,7 +576,7 @@ blockquote{
     -o-transition:all 0.3s ease-in-out;
     transition:all 0.3s ease-in-out;
 }
-.servive-block .span4:hover {
+.servive-block .span4:hover,.span3:hover {
 	border-radius:2px;
 	box-shadow:0 0 8px #ddd;
 }
@@ -584,11 +584,20 @@ blockquote{
 	color:#72c02c;
 	text-decoration:none;
 }
+.servive-block .span3 strong a:hover {
+    color:#72c02c;
+    text-decoration:none;
+}
 
 .servive-block .span4:hover h4,
 .servive-block .span4:hover i {
 	color:#72c02c;
 }
+
+.servive-block .span3:hover strong {
+    color:#72c02c;
+}
+
 .servive-block .span4 i {
 	color:#565656;
 	font-size:40px;
